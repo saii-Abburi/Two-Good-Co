@@ -86,8 +86,8 @@ html ,body{
     height: 50px;
     width: 80%;
     position: absolute;
-    background: palegoldenrod;
-    border-radius: 25px;
+
+
     font-family: 'Times New Roman', Times, serif;
     
 }
@@ -95,21 +95,33 @@ html ,body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 13px;
+    font-size: 12px;
     height: 100%;
+    border-radius: 25px;
+    background: palegoldenrod;
     cursor: pointer;
+    position: relative;
+    z-index: 10;
     
 }
+
+
 #page2 .elem .dets #d2{
     width: 100%;
-    height: 200px;
+    height: 212px;
     display: none;
+    justify-content: space-between;
     background-color: pink;
-    border-bottom-right-radius:  12px;
-    border-bottom-left-radius: 12px;
-    
-    
-    
+    border-radius: 25px;
+    position: absolute;
+    padding-top: 55px;
+    top: -50px;
+    left: 0;
+    z-index: -1;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    position: relative; 
 }
 
 #page2 .elem .dets #d1:hover + #d2 {
@@ -117,12 +129,10 @@ html ,body{
 }
 
 #page2 .elem .dets #d3{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
-    font-weight: lighter;
+    height: 150px;
+    width: 46%;
+    transition: height 0.25s cubic-bezier(.22,.57,.12,.96);  
 
 }
 #page2 .elem .dets #d3 img{
@@ -138,7 +148,7 @@ html ,body{
 }
 
 #page2 .elem .dets p{
-    font-weight: 200;
+    font-weight: 100;
 }
 
 

@@ -15,6 +15,20 @@ body {
 body {
   background-color: #f7f7f7;
 }
+
+@font-face {
+  font-family: 'HelveticaNowText';
+  src: url('/fonts/HelveticaNowText-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura-Bold';
+  src: url('/fonts/Futura-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
 .menu {
   position: fixed;
   top: 0;
